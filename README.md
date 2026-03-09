@@ -10,13 +10,13 @@ Data sets: One data set of walking in a circle
            One data set of walking in a square
            
 ## Objectives
--Process and analyze inertial sensor data collected from a VectorNav IMU during walking experiments.
--Calibrate magnetometer measurements using circular walking data to correct distortions in the magnetic field readings.
--Estimate orientation by integrating gyroscope rotational rates and compare the results with heading estimates derived from magnetometer measurements.
--Estimate velocity and displacement by integrating accelerometer measurements and analyze the drift introduced by inertial integration.
--Reconstruct 2D trajectories (North vs. East position) using heading estimates and integrated acceleration data.
--Compare trajectory estimation using gyro-based heading and magnetometer-based heading.
--Evaluate the challenges and limitations of inertial odometry when relying only on IMU measurements.
+- Process and analyze inertial sensor data collected from a VectorNav IMU during walking experiments.
+- Calibrate magnetometer measurements using circular walking data to correct distortions in the magnetic field readings.
+- Estimate orientation by integrating gyroscope rotational rates and compare the results with heading estimates derived from magnetometer measurements.
+- Estimate velocity and displacement by integrating accelerometer measurements and analyze the drift introduced by inertial integration.
+- Reconstruct 2D trajectories (North vs. East position) using heading estimates and integrated acceleration data.
+- Compare trajectory estimation using gyro-based heading and magnetometer-based heading.
+- Evaluate the challenges and limitations of inertial odometry when relying only on IMU measurements.
 
 ## Methods
 - Magnetometer calibration
